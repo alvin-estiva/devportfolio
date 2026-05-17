@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Developer Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Tech Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+  />
+
+  <!-- Social Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="header">
+    <nav class="navbar">
+      <a href="#home" class="logo">MyPortfolio</a>
+
+      <button class="menu-toggle" id="menuToggle">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Landing Section -->
+  <section id="home" class="landing-section">
+    <div class="landing-container">
+      <div class="landing-image">
+        <img src="./images/profile.jpg" alt="Developer Image" />
+      </div>
+
+      <div class="landing-content">
+        <p class="intro-text">Greetings, I'm</p>
+        <h1>Alvin</h1>
+        <h2>Web Developer & Creative Designer</h2>
+        <p>
+          I create responsive, modern, and user-friendly websites and digital
+          experiences. I enjoy working with front-end technologies, game
+          development tools, creative design software, and full-stack web
+          development.
+        </p>
+
+        <a href="#contact" class="btn">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <div class="section-title">
+      <h2>Skill Stack</h2>
+      <p>Technologies and tools I work with</p>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="devicon-html5-plain colored"></i>
+        <span>HTML</span>
+      </div>
+
+      <div class="skill-card">
+        <i class="devicon-css3-plain colored"></i>
+        <span>CSS</span>
+      </div>
+
+      <div class="skill-card">
+        <i class="devicon-javascript-plain colored"></i>
+        <span>JavaScript</span>
+      </div>
+
+      <div class="skill-card">
+        <i class="devicon-git-plain colored"></i>
+        <span>Git</span>
+      </div>
+
+      <div class="skill-card">
+        <i class="devicon-unity-plain"></i>
+        <span>Unity</span>
+      </div>
+
+      <div class="skill-card">
+        <i class="devicon-photoshop-plain colored"></i>
+        <span>Adobe Photoshop</span>
+      </div>
+
+      <div class="skill-card">
+        <i class="fa-solid fa-cube"></i>
+        <span>3D Maya</span>
+      </div>
+
+      <div class="skill-card">
+        <i class="devicon-nodejs-plain colored"></i>
+        <span>Node.js</span>
+      </div>
+
+      <div class="skill-card">
+        <i class="devicon-express-original"></i>
+        <span>Express.js</span>
+      </div>
+
+      <div class="skill-card">
+        <i class="devicon-react-original colored"></i>
+        <span>React</span>
+      </div>
+
+      <div class="skill-card">
+        <i class="devicon-php-plain colored"></i>
+        <span>PHP</span>
+      </div>
+
+      <div class="skill-card">
+        <i class="devicon-java-plain colored"></i>
+        <span>Java</span>
+      </div>
+
+      <div class="skill-card">
+        <i class="devicon-python-plain colored"></i>
+        <span>Python</span>
+      </div>
+
+      <div class="skill-card">
+        <i class="devicon-mysql-plain colored"></i>
+        <span>MySQL</span>
+      </div>
+
+      <div class="skill-card">
+        <i class="devicon-mongodb-plain colored"></i>
+        <span>MongoDB</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="section-title">
+      <h2>Contact Me</h2>
+      <p>Feel free to send me a message</p>
+    </div>
+
+    <div class="contact-container">
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+        <p>
+          You can contact me through email, phone, or by sending a message using
+          the form.
+        </p>
+
+        <div class="info-item">
+          <i class="fa-solid fa-envelope"></i>
+          <span>alvinray.estiva@gmail.com</span>
+        </div>
+
+        <div class="info-item">
+          <i class="fa-solid fa-phone"></i>
+          <span>+63 900 000 0000</span>
+        </div>
+      </div>
+
+      <form
+        class="contact-form"
+        action="mailto:alvinray.estiva@gmail.com"
+        method="POST"
+        enctype="text/plain"
+      >
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="text" name="subject" placeholder="Subject" required />
+        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <h3>Your Name</h3>
+      <p>Web Developer | Designer | Creative Builder</p>
+
+      <div class="footer-socials">
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+      </div>
+
+      <p class="footer-contact">
+        Email: your.email@example.com | Phone: +63 900 000 0000
+      </p>
+
+      <p class="copyright">
+        &copy; 2026 Your Name. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
